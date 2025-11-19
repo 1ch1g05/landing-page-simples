@@ -1,0 +1,43 @@
+.navbar {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  padding: 20px 50px;
+  background-color: #333;
+  color: white;
+}
+.hero {
+  height: 80vh;
+  background-color: #f0f0f0;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-content {
+  max-width: 600px; 
+  padding: 20px;
+}
+.cta-button {
+  display: inline-block;
+  background-color: #ff5722;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+.cta-button:hover {
+  background-color: #e64a19;
+}
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: #bbb;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
